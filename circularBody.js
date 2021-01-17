@@ -18,7 +18,7 @@ class circularBody {
         translate(pos.x,pos.y);
         rotate(angle);
         imageMode(CENTER);
-        image(this.image,0,0,2*this.radius,2*this.radius);
+        image(this.image,0,0,2*this.radius + 20,2*this.radius + 25);
         pop();
     }
 }
