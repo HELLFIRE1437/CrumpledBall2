@@ -41,8 +41,8 @@ function draw(){
 	}
 
 	fill("yellow");
-	ground.display();	
 	paper.display();
+	ground.display();	
 	dustbin();	
 	
 	
